@@ -10,7 +10,7 @@ import  ScoreById  from './routes/score/score.js'
 import  AnswerById  from './routes/answers/answers.js'
 
 
-const port = 5432;
+const port = 3008;
 const app = express();
 app.use(bodyParser.json())
 
