@@ -10,6 +10,5 @@ export const pool = new Pool({
     user: process.env.PG_USERNAME,
     password: process.env.PG_PASSWORD,
     port: process.env.PG_PORT,
-    localhost: process.env.PG_HOST,
-    sslmode: process.env.PG_sslmode
+    host: process.env.PG_HOST
   })
